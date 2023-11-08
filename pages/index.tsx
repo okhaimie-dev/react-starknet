@@ -5,7 +5,6 @@ import WalletBar from '../components/WalletBar'
 export default function Home() {
   const { data, isLoading, isError } = useBlock({
     refetchInterval: 3000,
-    blockIdentifier: 'latest',
   })
   return (
     <>
